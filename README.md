@@ -656,6 +656,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 
 ---
+## Dataset
+we used WESAD (Wearable Stress & Affect Detection)
+you can download it from here https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection
 
 ## 📞 Support & Contact
 
