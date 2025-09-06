@@ -570,36 +570,6 @@ sequenceDiagram
     U->>U: Display Result
 ```
 
-### 🔧 API Reference
-
-#### RealTimeBaselineTrainer
-
-```python
-trainer = RealTimeBaselineTrainer(
-    port='COM3',           # Arduino serial port
-    baudrate=9600,         # Serial communication speed
-    user_id='USER_001'     # Unique user identifier
-)
-
-# Create personal baseline
-success = trainer.run_baseline_training()
-```
-
-#### RealTimePanicPredictor
-
-```python
-predictor = RealTimePanicPredictor(
-    port='COM3',                    # Arduino serial port
-    user_id='USER_001',             # User identifier
-    models_path='./models'          # Path to trained models
-)
-
-# Start real-time monitoring
-predictor.run_monitoring()
-```
-
----
-
 ## ⚠️ Medical Disclaimer
 
 <div align="center">
@@ -695,15 +665,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - 🐛 **Bug Reports**: Create an issue on GitHub
 - 💡 **Feature Requests**: Create an issue on GitHub
 - 💬 **Discussions**: Use GitHub Discussions
-- 📧 **Email**: [Your email here]
+- 📧 **Email**: [bazeet298@gmail.com]
 
 ### 🔗 Links
 
-- 🌐 **Website**: [Your website here]
-- 📱 **Demo**: [Live demo link here]
-- 📊 **Performance**: [Performance metrics here]
-- 🎥 **Video**: [Demo video here]
-
+linkedin [https://www.linkedin.com/in/mohamed-ahmed-058952340/]
 ---
 
 <div align="center">
