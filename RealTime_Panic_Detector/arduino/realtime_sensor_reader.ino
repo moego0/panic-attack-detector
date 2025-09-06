@@ -1,21 +1,3 @@
-/*
-Real-Time Sensor Reader for Panic Attack Detection
-=================================================
-
-This Arduino code reads multiple sensors and sends data via serial
-communication to the Python panic attack detection system.
-
-Hardware Required:
-- Arduino Uno
-- Heart Rate Sensor (Pulse Sensor or MAX30102)
-- EDA Sensor (Galvanic Skin Response)
-- Temperature Sensor (DS18B20 or LM35)
-- Accelerometer (MPU6050 or ADXL345)
-- Breathing Rate Sensor (Pressure sensor or flow sensor)
-
-Author: Medical Panic Detection System
-Date: 2025
-*/
 
 // Include libraries
 #include <Wire.h>
