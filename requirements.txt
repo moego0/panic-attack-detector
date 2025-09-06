@@ -1,26 +1,87 @@
-# Real-Time Panic Attack Detection System Requirements
+# Panic Attack Detection System - Complete Requirements
 # ===================================================
+# This file contains all dependencies needed for both the Real-Time Detector
+# and the Medical Panic Trainer systems.
 
-# Core dependencies
+# Core Data Science Libraries
 numpy>=1.21.0
 pandas>=1.3.0
-scikit-learn>=1.0.0
-pyserial>=3.5
+scipy>=1.7.0
 
-# Optional dependencies for enhanced functionality
+# Machine Learning Libraries
+scikit-learn>=1.0.0
+joblib>=1.1.0
+
+# Data Visualization
 matplotlib>=3.5.0
 seaborn>=0.11.0
 plotly>=5.0.0
 
-# Development dependencies (optional)
+# Real-Time Communication
+pyserial>=3.5
+
+# Data Processing & Analysis
+scipy>=1.7.0
+
+# Optional: Enhanced Functionality
+# ===============================
+
+# Jupyter Notebook Support (for development)
 jupyter>=1.0.0
 notebook>=6.4.0
 ipykernel>=6.0.0
 
-# Testing dependencies (optional)
+# Testing Framework (for development)
 pytest>=6.0.0
 pytest-cov>=2.12.0
 
-# Documentation dependencies (optional)
+# Documentation (for development)
 sphinx>=4.0.0
 sphinx-rtd-theme>=1.0.0
+
+# Additional Scientific Computing (optional)
+# =========================================
+# Uncomment these if you need advanced features:
+
+# For advanced signal processing
+# scipy>=1.7.0  # Already included above
+
+# For additional ML algorithms
+# xgboost>=1.5.0
+# lightgbm>=3.3.0
+
+# For deep learning (if needed)
+# tensorflow>=2.8.0
+# torch>=1.11.0
+
+# For data augmentation
+# imbalanced-learn>=0.8.0
+
+# For hyperparameter tuning
+# optuna>=2.10.0
+
+# System Requirements
+# ===================
+# Python: >=3.7
+# Operating System: Windows, macOS, Linux
+# Memory: >=4GB RAM recommended
+# Storage: >=2GB free space
+
+# Installation Instructions
+# ========================
+# 1. Create virtual environment:
+#    python -m venv venv
+#    source venv/bin/activate  # On Windows: venv\Scripts\activate
+#
+# 2. Install requirements:
+#    pip install -r requirements.txt
+#
+# 3. For development (optional):
+#    pip install -r requirements.txt[dev]
+
+# Hardware Requirements
+# =====================
+# - Arduino Uno (for real-time detection)
+# - Sensors: Heart Rate, EDA, Temperature, Accelerometer, Respiration
+# - USB connection for Arduino communication
+# - Bluetooth module (HC-05) for wireless communication (optional)
